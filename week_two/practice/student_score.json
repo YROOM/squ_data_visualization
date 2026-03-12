@@ -1,0 +1,10 @@
+[
+    {"name": "张三", "gender": "男", "math": 85, "english": 92, "python": 88},
+    {"name": "李四", "gender": "女", "math": 78, "english": 89, "python": 95},
+    {"name": "王五", "gender": "男", "math": 90, "english": 76, "python": 82},
+    {"name": "赵六", "gender": "女", "math": 88, "english": 90, "python": 91},
+    {"name": "孙七", "gender": "男", "math": 65, "english": 78, "python": 80},
+    {"name": "周八", "gender": "女", "math": 92, "english": 85, "python": 89},
+    {"name": "吴九", "gender": "男", "math": 72, "english": 81, "python": 79},
+    {"name": "郑十", "gender": "女", "math": 86, "english": 93, "python": 94}
+]
