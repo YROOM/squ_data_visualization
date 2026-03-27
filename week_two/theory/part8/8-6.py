@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-import numpy as np
+import matplotlib.pyplot as plt #画图
+import numpy as np # 用来计算，模拟一些数
 
 fig,axes = plt.subplots()
 axes.plot(np.arange(0,24,2),[14,9,7,5,12,19,23,26,27,24,21,19],'-o')
