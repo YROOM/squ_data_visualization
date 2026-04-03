@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- 1. HTML：搭骨架（内容结构） -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>三合一示例</title>
+
+    <!-- 2. CSS：美化装修（颜色、样式、布局） -->
+    <style>
+        body {background: #f0f0f0;}
+        #box {
+            width: 300px;
+            height: 150px;
+            background: skyblue;
+            border-radius: 10px; /* 圆角 */
+            text-align: center;
+            line-height: 150px;
+            font-size: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 页面内容 -->
+    <div id="box">点我会变文字</div>
+
+    <!-- 3. JavaScript：动态交互（动作、逻辑） -->
+    <script>
+        // 找到盒子，点击就改内容
+        let div = document.getElementById("box");
+        div.onclick = function(){
+            div.innerText = "JS 触发成功！";
+            div.style.background = "orange";
+        }
+    </script>
+</body>
+</html>
